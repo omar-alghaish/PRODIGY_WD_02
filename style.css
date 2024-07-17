@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.stopwatch {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 15px 30px;
+  background-color: lime;
+  color: white;
+  font-weight: bolder;
+}
+
+.laps {
+  margin-top: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.laps div {
+  color: black;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
